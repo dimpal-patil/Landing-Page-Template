@@ -13,3 +13,45 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+main {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+main h2 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+main p {
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+footer li:hover {
+    color: #f39c12;
+}
